@@ -1,0 +1,12 @@
+#Python dependencies required for the development
+math
+torch
+torchvision
+tkinter
+PIL
+os
+shutil
+warnings
+collections
+typing 
+datetime
