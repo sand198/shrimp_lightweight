@@ -13,11 +13,12 @@ To ensure reliable decision-making, we implemented Grad-CAM++ visualization. The
 Standalone Desktop Application
 The FeatherNetX model is deployed within a desktop application that requires no internet connection, making it especially suitable for remote shrimp farms. The system provides fast, reliable classification results directly to farmers, helping to prevent economic losses through early intervention.
 
-<p float= "left"> <img src = "images/desktop_application.jpg" height = "500" width = "500"/> </p>
+<p float= "left"> <img src = "images/desktop_application.jpg" height = "300" width = "500"/> </p>
 
 Implementation
 
 Requires Python 3.8 or higher
 
 Desktop App: Run application_desktop to launch the standalone GUI application for shrimp disease classification.
+
 
