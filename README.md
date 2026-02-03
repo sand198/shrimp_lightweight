@@ -3,7 +3,7 @@
 Real-Time Shrimp Disease Classification
 We developed FeatherNetX, a lightweight CNN optimized for efficient shrimp disease detection. The model achieves 93% accuracy with only 0.739M parameters, 2.82 MB memory footprint, and 0.48 GFLOPs, making it highly efficient for real-world deployment. Integrated into a desktop application, FeatherNetX demonstrates 94% accuracy on unseen data with 0.2s inference per image, enabling real-time, offline diagnosis without internet dependency.
 
-<p float= "left"> <img src = "images/overall_methodology.jpg" height= "300" width = "500"/> </p>
+<p float= "left"> <img src = "overall_methodology.png" height= "300" width = "500"/> </p>
 
 Explainable AI Visualization
 To ensure reliable decision-making, we implemented Grad-CAM++ visualization. The heatmaps confirm that predictions are based on clinically relevant pathological features, improving interpretability and farmer trust. Our analysis further revealed a negative correlation between activation intensity and distance from bounding box centers, supporting the model’s capability for disease localization.
@@ -20,5 +20,6 @@ Implementation
 Requires Python 3.8 or higher
 
 Desktop App: Run application_desktop to launch the standalone GUI application for shrimp disease classification.
+
 
 
